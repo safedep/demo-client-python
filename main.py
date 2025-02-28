@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the (Deliberately) Vulnerable App!"}
+    return {"message": "Welcome to the (Deliberately) Vulnerable App made by us!!!1!"}
 
 @app.get("/report")
 def get_report():
